@@ -15,9 +15,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
         tags = {},
         plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json", "com.cucumber.listener.ExtentCucumberFormatter:target/report.html"}
-        //  format = {"json:target/cucumber.json", "html:target/report/html/cucumber-pretty"}
-        // plugin = "html:target/selenium-reports"
-
+    
 
 )
 
